@@ -10,7 +10,7 @@ namespace WebApplication_P2.Data
 
         }
 
-        public DbSet<Planta> Plantas { get; set; } = null!;
+        public DbSet<Planta> plantas { get; set; } = null!;
         public DbSet<Riego> riegos { get; set; } = null!;
     }
 }
